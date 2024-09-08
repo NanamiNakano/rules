@@ -1,0 +1,23 @@
+# > SMTP
+DOMAIN,cdn.nameless13.com
+#PROCESS-NAME,com.mb.android
+#PROCESS-NAME,com.microsoft.emmx
+#PROCESS-NAME,com.chrome.beta
+#PROCESS-NAME,com.github.shadowsocks
+#DOMAIN-SUFFIX,imap.gmail.com
+#DOMAIN-SUFFIX,imap-mail.outlook.com
+DOMAIN-KEYWORD,smtp
+DOMAIN-KEYWORD,imap
+DOMAIN-KEYWORD,emby
+DOMAIN-KEYWORD,tracker
+DOMAIN-KEYWORD,torrent
+DOMAIN-SUFFIX,vultr.com
+DST-PORT,6969
+DST-PORT,39682
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,wr.pvp.net
+DOMAIN-SUFFIX,riotgames.com
+DOMAIN,sg.row-release-pub-v2.game.wr.pvp.net
+DOMAIN,speedtest.cros.wr.pvp.net
+DOMAIN-SUFFIX,gvoice.cros.wr.pvp.net
+DOMAIN-SUFFIX,ping.pe

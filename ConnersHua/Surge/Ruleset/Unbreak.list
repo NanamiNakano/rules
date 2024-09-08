@@ -1,0 +1,33 @@
+# Unbreak
+# > General
+USER-AGENT,coffeecorp*
+USER-AGENT,restaurant-mobile*
+DOMAIN,app.adjust.com
+# > Alibaba
+DOMAIN,log.mmstat.com
+DOMAIN,sycm.mmstat.com
+# > Google
+#DOMAIN-SUFFIX,googletraveladservices.com
+#DOMAIN,dl.google.com
+#DOMAIN,mtalk.google.com
+# > Tencent
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+# > Strava
+DOMAIN,analytics.strava.com
+# > Umeng
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+# > SMTP
+#DOMAIN-SUFFIX,imap.gmail.com
+#DOMAIN-SUFFIX,imap-mail.outlook.com
+DOMAIN-KEYWORD,SMTP
+DOMAIN-KEYWORD,HELO
+DOMAIN-KEYWORD,Subject
+# > bt?
+DOMAIN-KEYWORD,find_node
+DOMAIN-KEYWORD,get_peers
+DOMAIN-KEYWORD,info_hash
+DOMAIN-KEYWORD,peer_id
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,torrent
