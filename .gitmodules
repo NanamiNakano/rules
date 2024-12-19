@@ -1,0 +1,4 @@
+[submodule "ConnersHua"]
+	path = ConnersHua
+	url = git@github.com:ConnersHua/RuleGo.git
+	branch = master
