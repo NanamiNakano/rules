@@ -35,7 +35,7 @@ jobs:
           git tag $TAG
           git push origin $TAG
         env:
-          TAG: ${{ env.TAG }}
+          TAG: ${{ steps.generate_tag.outputs.TAG }}
 
       - name: Create rules
         run: |
@@ -49,4 +49,4 @@ jobs:
         with:
           files: |
             out/Reject.list
-          tag_name: $TAG
+          tag_name: ${{ steps.generate_tag.outputs.TAG }}
