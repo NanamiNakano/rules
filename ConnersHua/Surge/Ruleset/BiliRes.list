@@ -1,9 +1,0 @@
-# > bilibili resource
-USER-AGENT,bili*
-USER-AGENT,Bilibili*
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,bilivideo.com
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,im9.com
-DOMAIN,upos-hz-mirrorakam.akamaized.net
-DOMAIN-SUFFIX,smtcdns.net
