@@ -5,6 +5,6 @@ updates:
   directory: "/"
   schedule:
     interval: "daily"
-    commit-message:
-      prefix: "[bot] Update submodule"
-    target-branch: "main"
+  commit-message:
+    prefix: "[bot] Update submodule"
+  target-branch: "main"
