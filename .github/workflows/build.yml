@@ -28,7 +28,7 @@ jobs:
         id: generate_tag
         run: |
           VERSION=$(date +'%Y.%m.%d')
-          echo "TAG=v$VERSION" >> $GITHUB_ENV
+          echo "TAG=v$VERSION" >> $GITHUB_OUTPUT
 
       - name: Create and push tag
         run: |
