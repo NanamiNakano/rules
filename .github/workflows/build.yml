@@ -52,3 +52,4 @@ jobs:
         with:
           files: |
             out/Reject.list
+          tag_name: $TAG
