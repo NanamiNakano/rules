@@ -7,4 +7,4 @@ updates:
     interval: "daily"
   commit-message:
     prefix: "[bot] Update submodule"
-  target-branch: "main"
+  target-branch: "master"
