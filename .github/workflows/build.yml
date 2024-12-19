@@ -24,6 +24,8 @@ jobs:
 
       - name: Create rules
         run: |
+          mkdir -p out
+          touch out/Reject.list
           cat ConnersHua/Surge/Ruleset/Extra/Reject/* > out/Reject.list
         shell: bash
 
