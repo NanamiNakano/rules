@@ -42,8 +42,11 @@ jobs:
           mkdir -p out
           touch out/Reject.list
           touch out/WeChat.list
+          touch out/Google.list
           cat ConnersHua/Surge/Ruleset/Extra/Reject/* > out/Reject.list
           cat ConnersHua/Surge/Ruleset/Extra/WeChat.list WeChatMedia.list > out/WeChat.list
+          cat ConnersHua/Surge/Ruleset/Extra/Google/* > out/Google.list
+          cat Google.list > out/Google.list
         shell: bash
 
       - name: Create Release
@@ -52,4 +55,5 @@ jobs:
           files: |
             out/Reject.list
             out/WeChat.list
+            out/Google.list
           tag_name: ${{ steps.generate_tag.outputs.TAG }}
